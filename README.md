@@ -104,7 +104,9 @@ __Duration of Campaign:__
 I thought the duration of campaign might be an interesting metric to look at, but I found most of them were about the same. Kickstarter's help FAQ recommends the following:
 >Projects on Kickstarter can last anywhere from 1 - 60 days. We've done some research and found that projects lasting any longer are rarely successful.
 >We recommend setting your campaign at 30 days or less. Campaigns with shorter durations have higher success rates and create a helpful sense of urgency around your project.
+
 ![Column chart showing percent of play outcomes by duration of campaign.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Average_Duration.png)
+
 Without tangible results it is probably hard to maintain interest after the initial interest wears off, so if a campaign hasn't reached its goal by then it probably won't.
 
 __Outcomes by Parent Category:__
@@ -113,8 +115,11 @@ By sorting ste data by parent categories we can see that Theater is the most pop
 
 __Theater Outcomes by Country:__
 Another data point I thought might be helpful to look at was outcomes based on countries. I found that the countries where Kickstart campaigns were most popular the United States, Great Britain, and Canada also had the most theater and play campaigns. These campaigns also tended to be slightly more successful than an average Kickstarter. 
+
 ![Percent successful US, GB, CA.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Country_Table.png)
-I think if you are outside of these countries you may want to look into another platform to host your campaign, just because it does seem to be much more hit or miss outside of these three countries.	
+
+I think if you are outside of these countries you may want to look into another platform to host your campaign, just because it does seem to be much more hit or miss outside of these three countries.
+	
 ![Column chart showing outcomes by country.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Theater_Outcomes_by_Country.png)
 
 ##### Limitations:
