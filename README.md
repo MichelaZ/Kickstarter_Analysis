@@ -104,7 +104,7 @@ According to this data theater Kickstarters are more popular in the summer. This
 
 > Summer-theatre plays are often Broadway hits of previous seasons or new plays being tested for the Broadway stage.
 
-__Winter Break_
+__Winter Break__
 Another conclusion we can draw from this graph is that there tend to be less Theater Kickstarters launched in the winter months. Very few shows tend to open from December to February "winter break." Christmas week and into New Years tend to have the largest number of sales for the year at the Broadway box office. Then in January sales tend to drop off steeply until the spring season. 
 
 ##### Deliverable 2: Results
