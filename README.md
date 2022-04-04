@@ -4,9 +4,9 @@
 In this project I used excel to analyze Kickstarter data for a client so they could see how their campaign's launch date and funding goals compared to similar campaigns. The brief stated:
 > Louise’s play Fever came close to its fundraising goal in a short amount of time. Now, she wants to know how different campaigns fared in relation to their launch dates and their funding goals. Using the Kickstarter dataset that you’ve already combed through, you’ll visualize campaign outcomes based on their launch dates and their funding goals. You’ll then submit a written report based on your analysis and the visualizations you create.
 
-##Deliverable 1:
+## Deliverable 1:
 
-#Deliverable 1: Purpose
+# Deliverable 1: Purpose
 Deliverable 1 was a 
 > Use your knowledge of pivot tables and graphing in Excel to visualize campaign outcomes ("successful," "failed," and "canceled") based on launch date.
 
@@ -27,7 +27,7 @@ Deliverable 1 was a
 
 # Deliverable 1: Challenges
 - I think the extra step of adding the years column to the data is unnecessary. Instead create a pivot table then right click a value in the "row labels" column. Select group which will open the "grouping" menu. 
-![Grouping Menu.](/assets/images/grouping.png)
+![Grouping Menu.](Kickstarter_Analysis/Submission/grouping.png)
 - In the grouping menu select "Months" and "Years." This will make your fields look like this:
 ![Feild List 1.](/assets/images/feilds1.png)
 - Move "Years" from the "Rows" to the "Filters" in the fields list. It will look like this, and your pivot table will work the same as creating a years column in your dataset. 
