@@ -22,15 +22,22 @@ Deliverable 1 was a pivot chart to look at the outcomes of theater Kickstarter c
 	- Rows: "Date Created Conversion"
 		- To show the Dates as months I clicked the field "Date Created Conversion", "Feild Settings", "Number Format", selected "Date" and "M."
 	- Values: Count of "Outcomes"
+
 ![Theater outcomes by launch date pivot table.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Pivot1.png)
+
 3.  Then I created a line graph based of the pivot table called: Theater_Outcomes_vs_Launch.png
 
 ###### Deliverable 1: Challenges
 - I think the extra step of adding the years column to the data is unnecessary. Instead create a pivot table then right click a value in the "row labels" column. Select group which will open the "grouping" menu. 
+
 ![Grouping Menu.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/grouping.png)
+
 - In the grouping menu select "Months" and "Years." This will make your fields look like this:
+
 ![Feild List 1.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/feilds1.png)
+
 - Move "Years" from the "Rows" to the "Filters" in the fields list. It will look like this, and your pivot table will work the same as creating a years column in your dataset. 
+
 ![Feild List 2.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/feilds2.png)
 
 ## Deliverable 2:
@@ -41,7 +48,9 @@ Deliverable 2 was a line graph showing the relationship of goals and the outcome
 
 ##### Deliverable 2: Method
 First, I made the data set into a table. Formatting the data as a table makes it easier to use the fill function to pull your formulas down without losing the ability to add data later, like if you used "$". To keep my data easy to manipulate I created a Kickstarter_Admin worksheet to store all my reference cells. That way if you wanted to change a filter, I only need to change it once and all the values referencing that cell are updated.
+
 ![Image of reference cells](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Kickstarter_Admin.png)
+
 I used CONCAT to incorporate my reference cells to the labels in the goal column. Then I used COUNTIFS, SUM, and simple division to collect the rest of the data. Please note when using logic operators in excel an ampersand needs to be inserted before the reference cell. For the most part I was able to pull the formulas down to fill in the rest of the table. I created a graph based on this, "Outcomes_vs_Goals.png," that will be discussed in the results section. Below is an example row to show how the references and table work.
 
 _Goal:_
@@ -78,14 +87,18 @@ _Percentage Canceled:_
 ```
 ##### Deliverable 2: Challenges
 I did find this method took quite a bit of time and it makes your chart less dynamic. Your only way to change your filters is to change the reference cells. I think a better way to do it would be to make a pivot table from the original Kickstarter data. Set the filters: parent category and  subcategory, columns: outcomes, rows: goals, values: count of outcomes. Filter the subcategory to "Plays." Then right click a value in the "row labels" column. Select group which will open the "grouping" menu.  If you input 1000 for the "starting value", 50,000 for the "ending value", 5000 as the "by" value and then click okay. Right click on a value in one of outcome columns. Hoover over "Show Value As" and select "% of Row Total." Then I made a line chart and unselected the "live" outcomes. 
+
 ![Line chart and pivot table showing percent of play outcomes by dollar amount.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Outcomes_vs_Goals_Pivot.png)
+
 The values are slightly different, but the chart looks the same, it took about 30 seconds, and this way it remains dynamic. When I use excel to look at data I find my clients are usually pretty unfamiliar with pivot tables, so making a dashboard sheet and connecting all the charts with slicers and timelines make it easier for these users to navigate. Using the same data source makes linking these objects a lot easier. This also allows you to hide the field buttons on your chart which gives it a cleaner look.
 
 
 ## Project Results: 
 
 ##### Deliverable 1: Results
+
 ![Feild List 2.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Theater_Outcomes_vs_Launch.png)
+
 __Summer Theater__
 According to this data theater Kickstarters are more popular in the summer. This may be because it is typically the off season for professional theater and when Summer Theater which allows for more experimentation occurs. Successfully funded theater projects tend to increase as the summer season approaches and decrease about a month before the fall season starts in September. Britannica says:
 
@@ -111,6 +124,7 @@ Without tangible results it is probably hard to maintain interest after the init
 
 __Outcomes by Parent Category:__
 By sorting ste data by parent categories we can see that Theater is the most popular category on kickstarter.
+
 ![Column chart showing the outcomes of parent categories on kickstarter.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Parent_Catagory_Outcomes.png)
 
 __Theater Outcomes by Country:__
