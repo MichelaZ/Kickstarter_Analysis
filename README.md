@@ -112,17 +112,10 @@ By sorting ste data by parent categories we can see that Theater is the most pop
 ![Column chart showing the outcomes of parent categories on kickstarter.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Parent_Catagory_Outcomes.png)
 
 __Theater Outcomes by Country:__
-Another data point I thought might be helpful to look at was outcomes based on countries. I found that the countries where Kickstart campaigns were most popular the United States, Great Britain, and Canada also had the most theater and play campaigns. These campaigns also tended to be slightly more successful than an average Kickstarter. I think if you are outside of these countries you may want to look into another platform to host your campaign, just because it does seem to be much more hit or miss outside of these three countries.	
-
-	__CA__		__US__		__GB__
-
-plays		73%		61%		76%
-
-theater		64%		58%		72%
-
-All		44%		54%		61%
-
-![Column chart showing percent of play outcomes by duration of campaign.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Theater_Outcomes_by_Country.png)
+Another data point I thought might be helpful to look at was outcomes based on countries. I found that the countries where Kickstart campaigns were most popular the United States, Great Britain, and Canada also had the most theater and play campaigns. These campaigns also tended to be slightly more successful than an average Kickstarter. 
+![Percent successful US, GB, CA.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Country_Table.png)
+I think if you are outside of these countries you may want to look into another platform to host your campaign, just because it does seem to be much more hit or miss outside of these three countries.	
+![Column chart showing outcomes by country.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Theater_Outcomes_by_Country.png)
 
 ##### Limitations:
 - It would be nice to know when campaigns got the most donations. Do they get more donations when they first launch, in the middle or toward the end of their duration? This may help to shed some light on the issue of looking at outcomes by goals from earlier.
