@@ -2,12 +2,12 @@
 
 ## Project Purpose:
 In this project I used excel to analyze Kickstarter data for a client so they could see how their campaign's launch date and funding goals compared to similar campaigns. The brief stated:
-> Louise’s play Fever came close to its fundraising goal in a short amount of time. Now, she wants to know how different campaigns fared in relation to their launch dates and their funding goals. Using the Kickstarter dataset that you’ve already combed through, you’ll visualize campaign outcomes based on their launch dates and their funding goals. You’ll then submit a written report based on your analysis and the visualizations you create.
+> Louise’s play Fever came close to its fundraising goal in a short amount of time. Now, she wants to know how different campaigns fared in relation to their launch dates and their funding goals. Using the Kickstarter dataset that you’ve already combed through, you’ll visualize campaign outcomes based on their launch dates and their funding goals.
 
 ## Deliverable 1:
 
 ##### Deliverable 1: Purpose
-Deliverable 1 was a pivot chart to look at the outcomes of theater Kickstarter campaigns throughout the year. The breif stated:
+Deliverable 1 was a pivot chart to look at the outcomes of theater Kickstarter campaigns throughout the year. The brief stated:
 > Use your knowledge of pivot tables and graphing in Excel to visualize campaign outcomes ("successful," "failed," and "canceled") based on launch date.
 
 1. To filter data by year in the pivot table I used the YEARS function on the "Date Created Conversion" column which I made from converting Unix timestamps into a date excel can read using the formula below:
@@ -88,7 +88,9 @@ The values are slightly different, but the chart looks the same, it took about 3
 ![Feild List 2.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Theater_Outcomes_vs_Launch.png)
 __Summer Theater__
 According to this data theater Kickstarters are more popular in the summer. This may be because it is typically the off season for professional theater and when Summer Theater which allows for more experimentation occurs. Successfully funded theater projects tend to increase as the summer season approaches and decrease about a month before the fall season starts in September. Britannica says:
+
 > Summer-theatre plays are often Broadway hits of previous seasons or new plays being tested for the Broadway stage.
+
 __Winter Break_
 Another conclusion we can draw from this graph is that there tend to be less Theater Kickstarters launched in the winter months. Very few shows tend to open from December to February "winter break." Christmas week and into New Years tend to have the largest number of sales for the year at the Broadway box office. Then in January sales tend to drop off steeply until the spring season. 
 
@@ -99,23 +101,27 @@ This chart shows that the highest success rate is in projects with goals of less
 ###### Other Data Points to Analyze:
 
 __Duration of Campaign:__
-I thought the duration of campaign might be an interesting metric to look at, but I found most of them were about the same. I did some research, Kickstarter's help ![Column chart showing percent of play outcomes by duration of campaign.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Average_Duration.png)
-FAQ recommends the following:
-
+I thought the duration of campaign might be an interesting metric to look at, but I found most of them were about the same. Kickstarter's help FAQ recommends the following:
 >Projects on Kickstarter can last anywhere from 1 - 60 days. We've done some research and found that projects lasting any longer are rarely successful.
 >We recommend setting your campaign at 30 days or less. Campaigns with shorter durations have higher success rates and create a helpful sense of urgency around your project.
-
+![Column chart showing percent of play outcomes by duration of campaign.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Average_Duration.png)
 Without tangible results it is probably hard to maintain interest after the initial interest wears off, so if a campaign hasn't reached its goal by then it probably won't.
 
 __Outcomes by Parent Category:__
 By sorting ste data by parent categories we can see that Theater is the most popular category on kickstarter.
 ![Column chart showing the outcomes of parent categories on kickstarter.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Parent_Catagory_Outcomes.png)
+
 __Theater Outcomes by Country:__
 Another data point I thought might be helpful to look at was outcomes based on countries. I found that the countries where Kickstart campaigns were most popular the United States, Great Britain, and Canada also had the most theater and play campaigns. These campaigns also tended to be slightly more successful than an average Kickstarter. I think if you are outside of these countries you may want to look into another platform to host your campaign, just because it does seem to be much more hit or miss outside of these three countries.	
-	__CA__	__US__	__GB__
-plays	73%	61%	76%
-theater	64%	58%	72%
-All	44%	54%	61%
+
+	__CA__		__US__		__GB__
+
+plays		73%		61%		76%
+
+theater		64%		58%		72%
+
+All		44%		54%		61%
+
 ![Column chart showing percent of play outcomes by duration of campaign.](https://github.com/MichelaZ/Kickstarter_Analysis/blob/main/Submission/Theater_Outcomes_by_Country.png)
 
 ##### Limitations:
